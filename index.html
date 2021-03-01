@@ -1,41 +1,166 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <title>My CV</title>
-  </head>
-  <body>
-    <h1>ATTENTION</h1>
-    <article>
-      <img src="https://sun9-49.userapi.com/impg/OY___Unyp2sQL62JnOvpiy5JssIQ9kY7XYnQ5g/wZCMRz488Lw.jpg?size=959x1280&quality=96&proxy=1&sign=30168e2ddd32e34998f1e481f6c030b9&type=album" alt="Photo">
-      <section>
-      <ol>
-        <li>Andrey Kiselev</li>
-        <li>Contacts:
-          <ul>
-            <li><span class="bold">E-mail</span>: mira55@yandex.ru</li>
-            <li><span class="bold">Phone (Telegram)</span>: +79270010302</li>
-            <li><span class="bold">Discord</span>: Passion#0407</li>
-            <li><span class="bold"><a href="https://vk.com/id140932007">VK</a></span></li>
-          </ul>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Andrey Kiselev CV</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header wrapper">
+      <h1 class="logo">Curriculum Vitae</h1>
+    </header>
+    <main class="main">
+      <article class="profile">
+        <h2 class="profile__title">Profile</h2>
+        <section class="bio inner-wrapper">
+          <h2 class="bio__title">Bio</h2>
+          <section class="bio__info">
+            <img class="avatar" src="./img/avatar.jpg" alt="Profile picture">
+            <h3 class="contacts-title title">Contacts:</h3>
+            <ul class="contacts">
+              <li class="contacts__email">
+                <span class="blue-text">E-mail: </span><a href="mailto:mira55@yandex.ru">mira55@yandex.ru</a>
+              </li>
+              <li class="contacts__phone">
+                <span class="blue-text">Tel: </span><a href="tel:+79270010302">+79270010302</a>
+              </li>
+              <li class="contacts__discord">
+                <span class="blue-text">Discord: </span><a>Passion#0407</a>
+              </li>
+              <li class="contacts__vk">
+                <span class="blue-text">Social: </span><a href="https://vk.com/id140932007">vk.com</a>
+              </li>
+            </ul>
+          </section>
+          <section class="about">
+            <h2 class="about-title title">About me</h2>
+            <p class="about__name">Hello! My name is <span class="blue-text">Andrey Kiselev</span>.</p>
+            <p class="about__text">
+              I am a self-taught beginning frontend developer. I am looking for a job as a junior frontend developer or HTML coder.<br>
+              I like the frontend because it provides the following advantages: remote work, the ability to work as a freelancer, the flexibility of the required knowledge for this job.<br>
+              Unfortunately, I have no experience in commercial development, so all of my works is either mockups/tasks from the Internet, or test tasks for various positions.
+            </p>
+          </section>
+        </section>
+        <section class="proficiency inner-wrapper">
+          <h2 class="proficiency-title title">Proficiency</h2>
+          <section class="skills">
+            <h3 class="skills-title title">Skills</h3>
+            <ul class="skills-list">
+              <li class="skills-item">HTML</li>
+              <li class="skills-item">CSS</li>
+              <li class="skills-item">JavaScript</li>
+              <li class="skills-item">Git</li>
+              <li class="skills-item">Pug</li>
+              <li class="skills-item">Sass</li>
+              <li class="skills-item">Figma, Adobe Photoshop</li>
+              <li class="skills-item">English: Intermediate (B1)</li>
+            </ul>
+          </section>
+          <section class="experience">
+            <h3 class="experience-title title">Experience</h3>
+            <ul class="experience-list">
+              <li class="experience-item">RSSchool 2020Q1, RSSchool 2020Q3</li>
+              <li class="experience-item">HTML Academy courses</li>
+              <li class="experience-item">Codecademy courses</li>
+              <li class="experience-item">And some test assignments...</li>
+            </ul>
+          </section>
+        </section>
+        <section class="projects inner-wrapper">
+          <h2 class="projects-title title">Projects</h2>
+          <div class="projects-content">
+            <div class="projects-item">
+              <a class="projects-item__link" href="http://ueb-design.ru/momentum/" target="_blank">
+                <img class="projects-item__image" src="./img/momentum.jpg" alt="Project Momentum preview">
+              </a>
+              <p class="projects-item__figcaption">Momentum</p>
+              <p class="projects-item__description">
+                A little page with weather widget of entered city, block of changable quotes and your focus for a day.
+              </p>
+            </div>
+            <div class="projects-item">
+              <a class="projects-item__link" href="http://ueb-design.ru/nyamushka/" target="_blank">
+                <img class="projects-item__image" src="./img/nyamushka.jpg" alt="Project Nyamushka preview">
+              </a>
+              <p class="projects-item__figcaption">Nyamushka</p>
+              <p class="projects-item__description">
+                Flex page fragment with choosing pack of cat food showing stock availability and it's status.
+              </p>
+            </div>
+            <div class="projects-item">
+              <a class="projects-item__link" href="http://ueb-design.ru/virtual-keyboard/" target="_blank">
+                <img class="projects-item__image" src="./img/virtual-keyboard.jpg"
+                  alt="Project Virtual Keyboard preview">
+              </a>
+              <p class="projects-item__figcaption">Virtual keyboard</p>
+              <p class="projects-item__description">
+                Just virtual keyboard (does not work completely).
+              </p>
+            </div>
+            <div class="projects-item">
+              <a class="projects-item__link" href="http://ueb-design.ru/webdev/" target="_blank">
+                <img class="projects-item__image" src="./img/webdev.jpg" alt="Project Webdev preview">
+              </a>
+              <p class="projects-item__figcaption">Webdev</p>
+              <p class="projects-item__description">
+                Landing page. Pure HTML and CSS.
+              </p>
+            </div>
+            <div class="projects-item projects-item_vertical">
+              <a class="projects-item__link" href="http://ueb-design.ru/fence-order/" target="_blank">
+                <img class="projects-item__image" src="./img/fenceorder.jpg" alt="Project Fence Order Form preview">
+              </a>
+              <p class="projects-item__figcaption">Fence order form</p>
+              <p class="projects-item__description">
+                Order form with working mail script and custom inputs.
+              </p>
+            </div>
+            <div class="projects-item projects-item_vertical">
+              <a class="projects-item__link" href="http://ueb-design.ru/floristry/" target="_blank">
+                <img class="projects-item__image" src="./img/floristry.jpg" alt="Project Floristry preview">
+              </a>
+              <p class="projects-item__figcaption">Floristry</p>
+              <p class="projects-item__description">
+                Perspectively adaptive landing page with slider. Not finished.
+              </p>
+            </div>
+            <div class="projects-item projects-item_vertical">
+              <a class="projects-item__link" href="http://ueb-design.ru/barbershop/" target="_blank">
+                <img class="projects-item__image" src="./img/barbershop.jpg" alt="Project Barbershop preview">
+              </a>
+              <p class="projects-item__figcaption">Barbershop</p>
+              <p class="projects-item__description">
+                Landing page on pure HTML and CSS with custom checkbox.
+              </p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer class="footer">
+      <div class="sign">
+        <p class="sign__name">Andrey Kiselev</p>
+        <p class="sign__copy">&copy; 2021</p>
+      </div>
+      <ul class="footer__links">
+        <li class="footer__item footer__links_git">
+          <a href="http://github.com/selfmotivation" target="_blank">
+            <img class="footer__item_image" src="./img/github.png" alt="Github Link">
+          </a>
         </li>
-        <li>I really want to became front-end developer, but looking for HTML markup coder/developer <em>career</em> as option. Of course common benefits are:
-          <ul>
-            <li>Remote job</li>
-            <li>Possibility to earn some more with freelance</li>
-            <li>Flexibility of required knowledge for that job (I don't want to stand still)</li>
-          </ul>
+        <li class="footer__item footer__links_rsschool">
+          <a href="http://rs.school/js/" target="_blank">
+            <img class="footer__item_image" src="./img/rs-logo.svg" alt="RS School Logo">
+          </a>
         </li>
-        <li>HTML5, CSS3, JS, GIT, SASS(SCSS), PUG, BEM, Figma, React.</li>
-        <li>All of my works are uploaded to GitHub account: https://github.com/selfmotivation Last tasks that I’ve made are on repository “test-tasks”: https://github.com/selfmotivation/test-tasks</li>
-        <li>I have no experience of working in a dev team unfortunatelly.</li>
-        <li>HTML Academy, Codecademy (free courses), freecodecamp.org, youtube videos, articles throughout the Internet, htmlbook.ru, webref.ru</li>
-        <li>According to <a href="https://englex.ru/your-level/placement/?answer_id=3018256">Englex.ru</a> or <a href="https://puzzle-english.com/">Puzzle English</a> - Intermediate (B1). But I don't feel like I know English for that level.</li>
-      </ol>
-      </section>
-      <h2>THANK YOU FOR ATTENTION</h2>
-      <img src="https://r1.mt.ru/r18/photo92D8/20768566767-0/jpg/bp.webp" alt="Hackerman">
-    </article>
-  </body>
+      </ul>
+    </footer>
+  </div>
+</body>
+
 </html>
